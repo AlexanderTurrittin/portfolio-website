@@ -1,0 +1,10 @@
+I spent the majority of my time this week working on the layout and style of my website.
+
+So, the section I tried to get finished this week was the contact page. Theres a couple tweeks 
+I want to make but I dont know how to do them at the moment.
+
+Additional Details I did was the parallax scrolling. This one as well has a couple of things
+I want to change but couldnt figure out. I also have a few hover effects on the links of the side
+navigation bar as well as teh links at the bottom of the page. The links will change color when hovered
+over, but will not be underlines or change color after they have been clicked on. Which I had to 
+correct in the code because since they are links they could turn purple if they were clicked on.

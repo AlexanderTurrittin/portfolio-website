@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- Sidebar Navigation Menu-->
+        <!--<div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">home</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>-->
+        
+        <!-- Use any element to open the sidenav -->
+        <!-- Dont want open sidenav; want always open -->
+        <!--<span onclick="openNav()">open</span> -->
+        
+        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+        <div class="col-2" id="sidebar">
+            <p><h1>Alexander Turrittin</h1>
+            <img src="IMG_20220911_202203.jpg" alt="Temporary Image" width=80%></p>
+            <p></p>
+            <p>Side Navigation</p>
+            <p></p>
+            <p><a href="#homeTitle">-Home</a></p>
+            <p></p>
+            <p><a href="#portfolioTitle">-Portfolio</a></p>
+            <p></p>
+            <p><a href="#aboutTitle">-About</a></p>
+            <p></p>
+            <p><a href="#contactTitle">-Contact</a></p>
+
+        </div>
+
+        <div class="parallax">
+
+        <div class="col-2"></div>
+
+        <div class="col-10" id="mainContent">
+
+            <h1 id="HomeTitle">Home</h1>
+            <p>This website is to act as my portfolio to showcase my abilities. 
+            To show what I have done in school as well as in my pet projects outside of school. 
+            The skills I have and the things I can do shall all be displayed here.
+            What I enjoy to do the most is 3D modeling using Maya and Blender, but I can do much more than that.
+            As you will see.</p>
+            <hr>
+            <!-- ATTEMPT AT HORIZONTAL NAV BAR / FILTER
+            <p>
+            <div class="col-2">Professional</div>
+            <div class="col-2">Personal</div>
+            <div class="col-2">3D Art</div>
+            <div class="col-2">2D Art</div>
+            <div class="col-2">All</div>
+            </p>
+            <hr>-->
+            <div id="portfolioSection">
+                <h1 id="portfolioTitle">Portfolio Artifacts</h1>
+                <div class="row">
+                    <div class="col-4"><img src="screen_1024x1024_2022-05-13_21-00-40.jpg"></div>
+                    <div class="col-4"><img src="screen_1024x1024_2022-05-13_21-00-40.jpg"></div>
+                    <div class="col-4"><img src="screen_1024x1024_2022-05-13_21-00-40.jpg"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"><img src="screen_1024x1024_2022-05-13_21-00-40.jpg"></div>
+                    <div class="col-4"><img src="screen_1024x1024_2022-05-13_21-00-40.jpg"></div>
+                    <div class="col-4"><img src="screen_1024x1024_2022-05-13_21-00-40.jpg"></div>
+                </div>  
+            </div>
+
+            <hr>
+            <div id="aboutSection">
+                <h1 id="aboutTitle">About</h1>
+                    <div class="row">
+                        <div class="col-6"><img src="plane.jpg" alt="plane-picture"></div>
+                        <div class="col-6" id="biography">
+                            <p></p>
+                            <p>
+                                I am a University student at Boise State University in the GIMM (Gaming, Interactive Media, and Mobile Technologies) Major. 
+                                I'm Idahoan, but I plan to move to Italy where my ancestors are from, and work as a 3D Modeler there. 
+                            </p>
+                            <p>
+                                4 years ago, I tried out Blender in an attempt to make a custom VRChat avatar. 
+                                This was before I had a VR headset and was playing on my laptop I got for a graduation gift; but I enjoyed it that ever since then I've done 3d Modeling on and off for pet projects.
+                            </p>
+                            <p>
+                                Another dream of mine is to be a pilot. Here is a picture of me Home to take off on one of my solo flights where I was tasked to take off and land 3 times by myself.
+                            </p>
+                        </div>
+                    </div>
+            </div>
+            <hr>
+            <div  id="contactSection">  
+                <h1 id="contactTitle">Contact</h1>
+                    <p></p>
+                    <p>
+                        Name or Company:
+                        <form>
+                            <input type="text">
+                        </form>
+                    </p>
+                    <p>
+                        Email Address:
+                        <form>
+                            <input type="text">
+                        </form>
+                    </p>
+                    <p>
+                        Message:
+                        <form>
+                            <textarea name="message" rows="10" cols="30"></textarea>
+                        </form>
+                    </p>
+                    <button type="button" onclick="alert('Submitted')">Submit</button>
+            </div>
+            <hr>
+            <p><a href="https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm" target="_blank"> Link to a website that I would like mine to look like. </a></p>
+            <p><a href="http://www.alicelomiry.com/" target="_blank"> Link to a website that I would like mine to look like. </a></p>
+            <p><a href="mailto: aturrittin@gmail.com"> Send Email </a></p>
+        </div>
+
+
+        
+        <!-- Container element for Parallax -->
+        </div>
+    </body>
+</html>
