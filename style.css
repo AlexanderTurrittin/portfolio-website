@@ -26,7 +26,6 @@
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
 }
 
 .row::after {
@@ -47,22 +46,21 @@ img {
 }
 
 html{
-    background-color: antiquewhite;
-    font-family: "Bahnschrift";
+  /*background-color: lightgray;*/
+  font-family: "Bahnschrift";
 }
 
 body{
-    color:antiquewhite;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .parallax {
   /* The image used */
-  background-image: url("coconutcrab.png");
-  
-
+  background-image: url("sky.jpg");
   /* Set a specific height */
-  min-height: 4000px;
-
+  min-height: 3750px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: top;
@@ -70,21 +68,37 @@ body{
   background-size: cover;
 }
 
-  #sidebar{
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    background-color:#493b37;
-    height: 100%;
-    color: antiquewhite;
-  }
+
+#sidebar{
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 50px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #698994;
+  border-right: #f1f1f1;
+  height: 100%;
+  color: antiquewhite;
+  text-align: center;
+  border-right: 10px solid #4e2323;
+  margin-right: 15px;
+}
+#tabs{
+  text-align: right;
+  font-size: x-large;
+  position: relative; left: -10%;
+  /*padding-bottom: 5%;*/
+}
+/* When you mouse over the navigation links, change their color */
+#tabs :hover {
+  background-color: #000000;
+}
+
   /* THIS REMOVES THE UNDERLINE */
   a:link{
-    color: antiquewhite;
+    color: #4e2323;
     text-decoration: none!important;
   }
   /* THIS REMOVES THE PURPLE (VISITED) TEXT COLOR */
@@ -92,65 +106,105 @@ body{
     color: antiquewhite;
     text-decoration: none!important;
   }
-  
-  /* The navigation menu links PROBABLY DONT NEED*/
-  /*.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  #sidebar :hover {
-    color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  /*.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }*/
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  /*#main {
-    transition: margin-left .5s;
-    padding: 20px;
-  }*/
-  
+
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   /*@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }*/
 
-  /*#mainContent{
-    background-color: lightgrey;
-  }*/
-
-  #contactSection{
-    text-align: center;
-    background-color: #4e2323;
+  #mainContent{
+    padding-left: 16.66%;
   }
 
-  #aboutSection{
-    background-color: lightgray;
+  #contactTitle{
+    text-align: center;
+    color: #29333d;
+    padding: 5%;
+  }
+  #contactSection{
+    text-align: center;
+    background-color: #29333d;
+    color: white;
+    padding: 5%;
+    margin-bottom: 3%;
   }
 
   #aboutTitle{
     text-align: center;
     color: #4e2323;
+    padding: 5%;
+  } 
+  #aboutSection{
+    color: #4e2323;
+    background-color: #4e2323;
+    margin-bottom: 10%;
   }
-
   #biography{
-    background-color: #4e2323;
+    background-color: white;
+    padding: 5%;
   }
 
-  #portfolioSection{
-    background-color: #4e2323;
+  #portfolioTitle{
+    text-align: center;
+    color: #4e2323;
+    padding: 5%;
+    padding-bottom: 10%;
   }
+  #portfolioSection{
+    margin-bottom: 10%;
+  }
+
+  #homeTitle{
+    text-align: center;
+    color: #4e2323;
+    padding: 5%;
+    margin-bottom: 10%;
+  }
+  #homeSection{
+    background-color: #ffffff;
+    padding: 5%;
+    color: #000000;
+    /*margin-left: 2%;
+    margin-right: 2%;*/
+    margin-bottom: 20%;
+  }
+
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+
+  hr{
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px
+  }
+  hr::before{
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+  }
+
+.fa{
+  padding-right: 3%!important;
+  padding-right: 3%!important;
+  position: relative;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  align-items: center;
+}
+
+#icons{
+  padding-left: 2%;
+  padding-right: 2%;
+  position:fixed; bottom: 3%;
+}

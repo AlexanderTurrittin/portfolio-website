@@ -8,3 +8,41 @@ I want to change but couldnt figure out. I also have a few hover effects on the 
 navigation bar as well as teh links at the bottom of the page. The links will change color when hovered
 over, but will not be underlines or change color after they have been clicked on. Which I had to 
 correct in the code because since they are links they could turn purple if they were clicked on.
+
+----------------------------------THINGS NEED FIXING-----------------------------------
+
+When trying to blur bg image, it blurs the whole page
+I only wand the bg image to blur
+	  filter: blur(8px);
+
+Get rid of the spacing between images in Portfolio Artifacts section
+
+navbar hover background color does not go all the way to the right
+
+maybe change backgroud image
+
+Overall color scheme
+	just slight changes
+
+Link to code for cool hr's
+https://codepen.io/Kseso/pen/KKwjRy?editors=1100
+
+rearrange contact section stuff
+
+little bit of red underneath plane picture
+
+Hover effect on the images
+
+---------------------------------Things left to do-------------------------------
+
+actually put my portfolio artifacts in webpage
+
+make it to that when click on the picture it takes you to a new page
+
+make pages for each artifact
+
+get form elements to accept inputs and find a way to store access them
+
+maybe make cool scroll bar
+
+2d Art, 3d Art, Coding stuff, group AR project if have, RESUME, other website
