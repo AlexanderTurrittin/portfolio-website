@@ -98,7 +98,7 @@ body{
 
   /* THIS REMOVES THE UNDERLINE */
   a:link{
-    color: #4e2323;
+    color: antiquewhite;
     text-decoration: none!important;
   }
   /* THIS REMOVES THE PURPLE (VISITED) TEXT COLOR */
