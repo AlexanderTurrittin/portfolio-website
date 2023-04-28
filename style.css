@@ -153,6 +153,7 @@ body{
   }
   #portfolioSection{
     margin-bottom: 10%;
+    background-color: #4e2323;
   }
 
   #homeTitle{
@@ -207,4 +208,10 @@ body{
   padding-left: 2%;
   padding-right: 2%;
   position:fixed; bottom: 3%;
+}
+
+#descriptions{
+  background-color: white;
+  padding: 5%;
+  margin-bottom: 5px;
 }
